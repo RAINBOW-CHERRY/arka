@@ -90,7 +90,47 @@ h6 {
 
 /*--------------------*/
 /* Шапка */
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .header{
-	background-color: aqua;
-
+	padding: 19px 0;
+}
+.header-container{
+	max-width: 1392px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-link{
+	margin-right: 50px;
+	color: #011F3A;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+.underline{
+	border-bottom: 1px solid #011F3A;
+}
+.nav-link:first-child::before{
+	content: url(../img/star.svg);
+	padding-right: 13px;
+}
+.nav-link:last-child::after{
+	content: url(../img/arrow.svg);
+	padding-left: 10px;
+}
+.action{
+	display: flex;
+	align-items: center;
+}
+.account{
+	margin-right: 25px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	color: #011F3A;
+}
+.cart{
+	display: block;
 }
