@@ -205,3 +205,14 @@ body{
 	letter-spacing: 0.6;
 	color: #A1A1A1;
 }
+
+/* Продукты */
+.products{
+	padding-top: 57px;
+	padding-bottom: 50px;
+}
+.products-up{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
