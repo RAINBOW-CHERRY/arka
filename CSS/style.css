@@ -109,7 +109,7 @@ body{
 	margin-right: 50px;
 	color: #011F3A;
 	line-height: 18px;
-	letter-spacing: 2px;
+	letter-spacing: 1.96px;
 }
 .underline{
 	border-bottom: 1px solid #011F3A;
@@ -129,7 +129,7 @@ body{
 .account{
 	margin-right: 25px;
 	line-height: 18px;
-	letter-spacing: 2px;
+	letter-spacing: 1.96px;
 	color: #011F3A;
 }
 .cart{
@@ -145,6 +145,10 @@ body{
 	padding-top: 165px;
 	padding-bottom: 98px;
 	background-color: #F2AE4D;
+}
+.main-img{
+	position: relative;
+	left: 120px;
 }
 .main-container{
 	display: flex;
@@ -170,7 +174,7 @@ body{
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 18px;
-	letter-spacing: 2px;
+	letter-spacing: 1.96px;
 	background: #3D5675;
 	border-radius: 44px;
 	color: #FFFFFF;
