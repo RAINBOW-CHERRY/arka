@@ -92,6 +92,7 @@ h6 {
 /* Шапка */
 body{
 	font-family: 'Roboto', sans-serif;
+	color: #011F3A;
 }
 .header{
 	padding: 19px 0;
@@ -133,4 +134,38 @@ body{
 }
 .cart{
 	display: block;
+}
+
+/* Главная */
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+.main{
+	padding-top: 165px;
+	padding-bottom: 205px;
+	background-color: #F2AE4D;
+}
+.main-title{
+	max-width: 480px;
+	font-size: 48px;
+	line-height: 56px;
+	margin-bottom: 33px;
+}
+.main-discription{
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 14px;
+	max-width: 277px;
+}
+.btn{
+	display: inline-block;
+	padding: 19px 29px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 2px;
+	background: #3D5675;
+	border-radius: 44px;
+	color: #FFFFFF;
 }
