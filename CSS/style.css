@@ -242,11 +242,12 @@ body{
 }
 .products-items{
 	display: inline-block;
-	max-width: 398px;
+	min-height: 432px;
+	width: 398px;
 	border: 1px solid #EDEDED;
 }
 .products-item__down-block{
-	padding: 24px 25px 4px 25px;
+	padding: 24px 25px 0 25px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -275,3 +276,4 @@ body{
 	line-height: 24px;
 	color: #777777;
 }
+
