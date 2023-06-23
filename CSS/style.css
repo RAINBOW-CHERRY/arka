@@ -431,3 +431,91 @@ body{
 	width: 1px;
 	border-right: 1px solid #A1A1A166;
 }
+
+/* Клиенты */
+.merchants{
+	background-color: #EEEEEE;
+}
+.merchants__wrapper{
+	padding-top: 88px;
+	padding-bottom: 57px;
+}
+.merchants__title{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	margin-bottom: 59px;
+}
+.reviews{
+	background-color: #FFFFFF;
+	box-shadow: 0px 14px 44px 0px #8F8F8F40;
+}
+.company{
+	display: flex;
+	padding: 100px 190px;
+	justify-content: space-between;
+}
+.company__block{
+	padding: 0 20px;
+}
+.company__link{
+	display: block;
+	margin-bottom: 20px;
+	
+}
+.company__evaluation{
+	display: block;	
+}
+
+.reviews-all{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 55px;
+}
+
+.images{
+	display: flex;
+
+}
+.comment{
+	width: 400px;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+}
+.comment__text{
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 12px;
+}
+.man{
+	display: flex;
+	align-items: center;
+}
+.man__avatar{
+	margin-right: 20px;
+}
+.man__info{
+	margin-right: 18px;
+}
+.man__name{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 4px;
+}
+.nickname{
+	font-size: 15px;
+	line-height: 24px;
+	color: #A1A1A1;
+}
+.button__link{
+	font-family: 'Roboto', sans-serif;
+	padding: 13px 25px;
+	border-radius: 44px;
+	background-color: #F2F2F2;
+	line-height: 18px;
+	letter-spacing: 1.96px;
+	color: #3D5675;
+	text-transform: uppercase;
+}
