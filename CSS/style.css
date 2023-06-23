@@ -239,7 +239,7 @@ body{
 }
 .products__item{
 	max-width: 400px;
-	min-height: 432px;
+	min-height: 490px;
 	border: 1px solid #EDEDED;
 	background-color: #FFFFFF;
 }
@@ -345,3 +345,36 @@ body{
 	color: #FFFFFF;
 }
 /* Преимущества */
+.advantage{
+	background-color: #EEEEEE;
+}
+.advantage__block{
+	padding: 88px 42px 140px;
+}
+.advantage__title{
+	margin-bottom: 82px;
+	color: #011F3A;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 41px;
+}
+.advantage__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.item__img{
+	margin-bottom: 54px;
+}
+.item__title{
+	margin-bottom: 12px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	letter-spacing: 0.36px;
+	color: #011F3A;
+}
+.item__info{
+	font-size: 15px;
+	line-height: 24px;
+	color: #A1A1A1;
+}
