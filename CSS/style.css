@@ -110,6 +110,7 @@ body{
 	color: #011F3A;
 	line-height: 18px;
 	letter-spacing: 1.96px;
+	text-transform: uppercase;
 }
 .underline{
 	border-bottom: 1px solid #011F3A;
@@ -131,6 +132,7 @@ body{
 	line-height: 18px;
 	letter-spacing: 1.96px;
 	color: #011F3A;
+	text-transform: uppercase;
 }
 .cart{
 	display: block;
@@ -291,6 +293,7 @@ body{
 	font-weight: 700;
 	line-height: 18px;
 	letter-spacing: 1.96px;
+	text-transform: uppercase;
 }
 /* Дизайн */
 .design{
@@ -343,6 +346,7 @@ body{
 	line-height: 18px;
 	letter-spacing: 1.96px;
 	color: #FFFFFF;
+	text-transform: uppercase;
 }
 /* Преимущества */
 .advantage{
@@ -425,6 +429,7 @@ body{
 	font-weight: 700;
 	line-height: 18px;
 	letter-spacing: 1.96px;
+	text-transform: uppercase;
 }
 .quote__position{
 	height: 410px;
@@ -473,6 +478,9 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 55px;
+}
+.reviews-all:last-child{
+	margin-bottom: 0;
 }
 
 .images{
