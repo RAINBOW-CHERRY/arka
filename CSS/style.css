@@ -90,14 +90,16 @@ h6 {
 
 /*--------------------*/
 /* Шапка */
-body{
+body {
 	font-family: 'Roboto', sans-serif;
 	color: #011F3A;
 }
-.header{
+
+.header {
 	padding: 19px 0;
 }
-.header-container{
+
+.header-container {
 	max-width: 1392px;
 	margin: auto;
 	display: flex;
@@ -105,72 +107,85 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
-.nav-link{
+
+.nav-link {
 	margin-right: 50px;
 	color: #011F3A;
 	line-height: 18px;
 	letter-spacing: 1.96px;
 	text-transform: uppercase;
 }
-.underline{
+
+.underline {
 	border-bottom: 1px solid #011F3A;
 }
-.nav-link:first-child::before{
+
+.nav-link:first-child::before {
 	content: url(../img/star.svg);
 	padding-right: 13px;
 }
-.nav-link:last-child::after{
+
+.nav-link:last-child::after {
 	content: url(../img/arrow.svg);
 	padding-left: 10px;
 }
-.action{
+
+.action {
 	display: flex;
 	align-items: center;
 }
-.account{
+
+.account {
 	margin-right: 25px;
 	line-height: 18px;
 	letter-spacing: 1.96px;
 	color: #011F3A;
 	text-transform: uppercase;
 }
-.cart{
+
+.cart {
 	display: block;
 }
 
 /* Главная */
-.container{
+.container {
 	max-width: 1200px;
 	margin: auto;
 }
-.main{
+
+.main {
 	padding-top: 165px;
 	padding-bottom: 98px;
 	background-color: #F2AE4D;
 }
-.main-img{
+
+.main-img {
 	position: relative;
 	left: 120px;
 }
-.main-container{
+
+.main-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
-.main-title{
+
+.main-title {
 	max-width: 480px;
 	font-size: 48px;
 	line-height: 56px;
 	margin-bottom: 33px;
 }
-.main-discription{
+
+.main-discription {
 	font-size: 15px;
 	line-height: 24px;
 	margin-bottom: 14px;
 	max-width: 277px;
 }
-.btn{
+
+.btn {
 	display: inline-block;
 	padding: 19px 29px;
 	text-transform: uppercase;
@@ -183,24 +198,28 @@ body{
 }
 
 /* Информация */
-.information{
+.information {
 	padding: 20px 0;
 }
-.information-container{
+
+.information-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .shopify,
 .amazon,
-.eco{
+.eco {
 	display: flex;
 	align-items: center;
 }
-.information-icon{
+
+.information-icon {
 	margin-right: 16px;
 }
-.information-info{
+
+.information-info {
 	max-width: 80px;
 	font-size: 15px;
 	line-height: 19px;
@@ -209,23 +228,26 @@ body{
 }
 
 /* Продукты */
-.products{
+.products {
 	padding-top: 57px;
 	padding-bottom: 50px;
 	background-color: #EEEEEE;
 }
-.products-up__wrapper{
+
+.products-up__wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 57px;
 }
-.products-up__title{
+
+.products-up__title {
 	font-size: 32px;
 	line-height: 38px;
 	color: #011F3A;
 }
-.products-up__button{
+
+.products-up__button {
 	padding: 13px 25px;
 	border-radius: 44px;
 	background-color: #3D5675;
@@ -234,58 +256,69 @@ body{
 	letter-spacing: 1.96px;
 	color: #FFFFFF;
 }
-.products-down__wrapper{
+
+.products-down__wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 46px;
 }
-.products__item{
+
+.products__item {
 	max-width: 400px;
 	min-height: 490px;
 	border: 1px solid #EDEDED;
 	background-color: #FFFFFF;
 }
-.products__item-all{
+
+.products__item-all {
 	padding: 24px 25px 0 25px;
 	display: flex;
 	justify-content: space-between;
 }
-.products__item-right{
+
+.products__item-right {
 	margin-top: 27px;
 }
-.item__title{
+
+.item__title {
 	margin-bottom: 8px;
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.36px;
 	color: #011F3A;
 }
-.item__info{
+
+.item__info {
 	max-width: 210px;
 	font-size: 15px;
 	line-height: 24px;
 	color: #777777;
 }
-.price__end{
+
+.price__end {
 	display: block;
 }
-.price__info{
-	font-size: 15px; 
+
+.price__info {
+	font-size: 15px;
 	line-height: 24px;
 	color: #A1A1A1;
 }
-.stock{
+
+.stock {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.stock__title{
+
+.stock__title {
 	margin-right: 36px;
 	font-size: 15px;
 	line-height: 25px;
 	color: #A1A1A1;
 }
-.stock-link{
+
+.stock-link {
 	padding: 13px 25px;
 	background-color: #FFFFFF;
 	border-radius: 44px;
@@ -295,50 +328,60 @@ body{
 	letter-spacing: 1.96px;
 	text-transform: uppercase;
 }
+
 /* Дизайн */
-.design{
+.design {
 	padding: 70px 0;
 	background-color: #EEEEEE;
 }
-.design__wrapper{
+
+.design__wrapper {
 	padding: 88px 50px;
 	background-color: #72BDA3;
 	box-shadow: 0px 14px 44px 0px #8F8F8F40;
 }
-.design__title{
+
+.design__title {
 	margin-bottom: 46px;
 	font-size: 32px;
 	line-height: 41px;
 	text-align: center;
 }
-.design__stages{
+
+.design__stages {
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
 	margin-bottom: 76px;
 }
-.stages__img{
+
+.stages__img {
 	margin-bottom: 12px;
 }
-.stages__title{
+
+.stages__title {
 	margin-bottom: 10px;
 	font-size: 18px;
 	line-height: 23px;
 	letter-spacing: 0.36px;
 }
-.stages__block{
+
+.stages__block {
 	max-width: 197px;
 	margin: auto;
 }
-.stages__info{
+
+.stages__info {
 	font-size: 15px;
 	line-height: 24px;
 	color: #3D5675;
 }
-.design__button{
+
+.design__button {
 	text-align: center;
 }
-.design__link{
+
+.design__link {
 	padding: 13px 25px;
 	background-color: #3D5675;
 	border-radius: 44px;
@@ -348,28 +391,34 @@ body{
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
+
 /* Преимущества */
-.advantage{
+.advantage {
 	background-color: #EEEEEE;
 }
-.advantage__block{
+
+.advantage__block {
 	padding: 88px 42px 140px;
 }
-.advantage__title{
+
+.advantage__title {
 	margin-bottom: 82px;
 	color: #011F3A;
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 41px;
 }
-.advantage__wrapper{
+
+.advantage__wrapper {
 	display: flex;
 	justify-content: space-between;
 }
-.item__img{
+
+.item__img {
 	margin-bottom: 54px;
 }
-.item__title{
+
+.item__title {
 	margin-bottom: 12px;
 	font-weight: 700;
 	font-size: 18px;
@@ -377,50 +426,58 @@ body{
 	letter-spacing: 0.36px;
 	color: #011F3A;
 }
-.item__info{
+
+.item__info {
 	font-size: 15px;
 	line-height: 24px;
 	color: #A1A1A1;
 }
+
 /* Расценка */
-.quote{
+.quote {
 	background-color: #EEEEEE;
 	padding: 60px 0;
 }
-.quote__wrapper{
+
+.quote__wrapper {
 	padding: 110px 120px 90px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #FFCA3A;
 	box-shadow: 0px 14px 44px 0px #8F8F8F40;
 }
-.quote__item{
+
+.quote__item {
 	min-height: 410px;
 }
 
 
-.quote__block{
+.quote__block {
 	text-align: center;
 	width: 360px;
 	min-height: 386px;
 }
-.quote__img{
+
+.quote__img {
 	margin-bottom: 24px;
 }
-.quote__title{
+
+.quote__title {
 	margin-bottom: 14px;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 36px;
 }
-.quote__info{
+
+.quote__info {
 	max-width: 350px;
 	margin-bottom: 10px;
 	font-size: 15px;
 	line-height: 24px;
 	color: #3D5675;
 }
-.quote__link{
+
+.quote__link {
 	display: inline-block;
 	padding: 13px 25px;
 	border-radius: 44px;
@@ -431,93 +488,110 @@ body{
 	letter-spacing: 1.96px;
 	text-transform: uppercase;
 }
-.quote__position{
+
+.quote__position {
 	height: 410px;
 	width: 1px;
 	border-right: 1px solid #A1A1A166;
 }
 
 /* Клиенты */
-.merchants{
+.merchants {
 	background-color: #EEEEEE;
 }
-.merchants__wrapper{
+
+.merchants__wrapper {
 	padding-top: 88px;
 	padding-bottom: 57px;
 }
-.merchants__title{
+
+.merchants__title {
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 38px;
 	text-align: center;
 	margin-bottom: 59px;
 }
-.reviews{
+
+.reviews {
 	background-color: #FFFFFF;
 	box-shadow: 0px 14px 44px 0px #8F8F8F40;
 }
-.company{
+
+.company {
 	display: flex;
 	padding: 100px 190px;
 	justify-content: space-between;
 }
-.company__block{
+
+.company__block {
 	padding: 0 20px;
 }
-.company__link{
+
+.company__link {
 	display: block;
 	margin-bottom: 20px;
-	
-}
-.company__evaluation{
-	display: block;	
+
 }
 
-.reviews-all{
+.company__evaluation {
+	display: block;
+}
+
+.reviews-all {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 55px;
 }
-.reviews-all:last-child{
+
+.reviews-all:last-child {
 	margin-bottom: 0;
 }
 
-.images{
+.images {
 	display: flex;
 
 }
-.comment{
+
+.comment {
 	width: 400px;
 	margin: auto;
 	font-family: 'Lato', sans-serif;
 }
-.comment__text{
+
+.comment__text {
 	font-size: 24px;
 	line-height: 32px;
 	margin-bottom: 12px;
 }
-.man{
+
+.man {
 	display: flex;
 	align-items: center;
 }
-.man__avatar{
+
+.man__avatar {
 	margin-right: 20px;
 }
-.man__info{
+
+.man__info {
 	margin-right: 18px;
 }
-.man__name{
+
+.man__name {
 	font-size: 18px;
 	line-height: 22px;
 	margin-bottom: 4px;
 }
-.nickname{
+
+.nickname {
 	font-size: 15px;
 	line-height: 24px;
 	color: #A1A1A1;
 }
-.button__link{
+
+.button__link {
 	font-family: 'Roboto', sans-serif;
 	padding: 13px 25px;
 	border-radius: 44px;
@@ -529,23 +603,26 @@ body{
 }
 
 /* Перейти */
-.get{
+.get {
 	padding-top: 120px;
 	padding-bottom: 137px;
 	background-color: #EEEEEE;
 }
-.get__title{
+
+.get__title {
 	font-weight: 700;
 	font-size: 31px;
 	line-height: 36px;
 	text-align: center;
 	margin-bottom: 55px;
 }
-.get__button{
+
+.get__button {
 	display: flex;
 	justify-content: center;
 }
-.get__link{
+
+.get__link {
 	padding: 13px 25px;
 	border-radius: 44px;
 	font-weight: 700;
@@ -554,8 +631,77 @@ body{
 	background-color: #FFFFFF;
 	color: #3D5675;
 }
-.get__link--right{
+
+.get__link--right {
 	margin-right: 11px;
 	color: #FFFFFF;
 	background-color: #3D5675;
+}
+
+/* Подвал */
+.footer {
+	padding: 60px 0;
+	background-color: #F2F3F4;
+}
+
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__navigation-link {
+	display: block;
+	margin-bottom: 17px;
+}
+
+footer__navigation-link--none {
+	margin-bottom: 0;
+}
+
+.navigation-link__item {
+	font-size: 15px;
+	line-height: 18px;
+	color: #3D5675;
+}
+
+.icon__item {
+	margin-right: 11px;
+}
+
+.icon__item--none {
+	margin-right: 0;
+}
+
+.email__text {
+	display: block;
+	margin-bottom: 17px;
+	font-size: 15px;
+	line-height: 18px;
+	color: #3D5675;
+}
+
+.email__block {
+	margin-bottom: 12px;
+}
+
+.email__field {
+	background-color: #FFFFFF;
+	padding: 9px 0 9px 18px;
+	border-radius: 44px;
+	width: 280px;
+	height: 36px;
+	color: #3D567566;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.submit {
+	display: inline-block;
+	padding: 12px 36px;
+	border-radius: 44px;
+	background-color: #3D5675;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
 }
